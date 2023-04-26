@@ -5,17 +5,18 @@ import { Link } from 'react-router-dom';
 function Menu(){
     return (
         <div className='menu'>
-            <a className='social' href='https://www.youtube.com/channel/UC-HOaON29jwoQHBYHFv5H-w'>
-                <BsYoutube color='#FFF' size={24} />
+            <a className='social' href='https://www.youtube.com/@FlexproSistemas' target="_blank" rel="noopener noreferrer">
+                <BsYoutube color='#c4302b' size={24} />
             </a>
-            <a className='social' href='https://www.instagram.com/flexprosistemas/'>
+            <a className='social' href='https://www.instagram.com/flexprosistemas/' target="_blank" rel="noopener noreferrer">
                 <BsInstagram color='#FFF' size={24} />
             </a>
             <Link className='menu-item' to="/links">
-                Meus Links
+                Meus Links Gerados
             </Link>
         </div>
     )
 }
 
 export default Menu;
+

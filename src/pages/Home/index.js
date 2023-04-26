@@ -8,8 +8,8 @@ function Home(){
 
             <div className="logo">
                 <img src="/logo.png" width="200" height="200" alt="Sujeito Link Logo" />
-                <h1>SeuLink</h1>
-                <span>Cole seu link para encurtar</span>
+                <h1>Seu Link</h1>
+                <span>Cole seu link abaixo para encurtar</span>
             </div>
                 <div className="area-input">
                     <div>
