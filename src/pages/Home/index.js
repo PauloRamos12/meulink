@@ -4,6 +4,7 @@ import Menu from '../../components/Menu';
 import { useState } from 'react'
 import LinkItem from '../../components/LinkItem';
 import api from './/../../services//api'
+import {saveLink} from '../../services/storeLinks'
 
 function Home(){
     const [link, setLink] = useState('');
@@ -18,6 +19,7 @@ function Home(){
             setData(response.data);
             setShowModal(true);
             setLink('');
+            saveLink('@encurtaLink', response.data)
         }catch{
             alert("Ops! Parece que algo deu errado")
             setLink('');

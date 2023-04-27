@@ -33,7 +33,7 @@
 .modal-container span {
     margin: 14px 0;
     color: #a7a7a7;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .modal-link {
@@ -46,6 +46,7 @@
     border: 0;
     border-radius: 14px;
     color: #FFF;
+    font-size: 20px;
 }
 
 @media (max-width: 735px){
